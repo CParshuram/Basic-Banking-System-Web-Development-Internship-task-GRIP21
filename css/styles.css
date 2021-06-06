@@ -1,0 +1,67 @@
+h1 {
+  color: #660033;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: blue;
+  border-width: 4px;
+  width:10%;
+}
+.{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 27%;
+  padding: 30px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 10px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: blue;
+  paddind: 15px 32px;
+  border: 1px solid green;
+  font-size: 20px;
+}
+ul li a:hover{
+  background-color: powderblue;
+  color: #000;
+}
+.button{
+background-color: Salmon;
+border: none;
+color: Seinna;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 15
+px;
+}
+.button:hover{
+  background-color: purple;
+  color: #000;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  color: indigo;
+  text-align: left;
+}
